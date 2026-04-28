@@ -58,7 +58,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
 
       <label>Barcode</label>
-      <input name="barcode" value={formData.barcode} onChange={handleChange} />
+      <input type="number" name="barcode" value={formData.barcode} onChange={handleChange} />
 
       <button className="btn primary" type="submit">{submitText}</button>
     </form>
